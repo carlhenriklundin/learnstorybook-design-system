@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": false,
   "description": "Storybook design systems tutorial",
-  "repository": "https://github.com/chromaui/learnstorybook-design-system.git",
-  "author": "Tom Coleman <tom@thesnail.org>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromaui/learnstorybook-design-system.git"
+  },
+  "author": {
+    "name": "Tom Coleman",
+    "email": "tom@thesnail.org"
+  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -22,7 +28,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "build-storybook-docs": "storybook build  --docs"
+    "build-storybook-docs": "storybook build  --docs",
+    "chromatic": "npx chromatic --project-token=chpt_0d16788768812aa"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -80,5 +87,11 @@
     "react-dom": {
       "optional": true
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/chromaui/learnstorybook-design-system/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/chromaui/learnstorybook-design-system#readme",
+  "_id": "learnstorybook-design-system@0.1.0"
 }

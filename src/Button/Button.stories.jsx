@@ -8,7 +8,7 @@ import { userEvent, within } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';
 
 const CustomButton = styled.button`
-  border: 1px solid green;
+  border: 10px solid green;
   background: lightgreen;
   color: rebeccapurple;
   padding: 1em;
