@@ -1,16 +1,10 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "@carlhenriklundin/learnstorybook-design-system",
   "version": "0.1.0",
   "private": false,
   "description": "Storybook design systems tutorial",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chromaui/learnstorybook-design-system.git"
-  },
-  "author": {
-    "name": "Tom Coleman",
-    "email": "tom@thesnail.org"
-  },
+  "repository": "https://github.com/carlhenriklundin/learnstorybook-design-system.git",
+  "author": "carlhenriklundin <carl-henrik.lundin@pts.se>",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
